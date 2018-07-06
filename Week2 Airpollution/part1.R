@@ -9,4 +9,4 @@ pollutantmean <- function(directory, pollutant, id = 1:332){
         mean(values, na.rm = TRUE)
 }
 
-pollutantmean("C:/Users/chenj/Documents/GitHub/specdata/rprog_2Fdata%2Fspecdata/specdata/", "sulfate", id = 1:25)
+pollutantmean("C:/Users/chenj/Documents/GitHub/specdata/rprog_2Fdata%2Fspecdata/specdata/", "nitrate")
